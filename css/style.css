@@ -112,6 +112,11 @@ body {
     font-family: URW Chancery L;
 }
 
+.carousel-indicators{
+  font-size: 120%;
+  top: 14.7em;
+}
+
 #photo{
   height: 0;
   width: 0;
