@@ -1,0 +1,242 @@
+/*Reset CSS*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+  font-family: Arial, serif;
+  background: radial-gradient(deepskyblue, white, deepskyblue);
+  overflow: hidden;
+}
+
+  #mon-logo {
+  width: 100px;
+  margin: auto;
+  height: 90px;
+}
+
+  .barre {
+  background: linear-gradient(lightgrey, white);
+  border-radius: 3px;
+  width:300px;
+}
+
+  .barre a {
+    color: black;
+    text-decoration: none;
+    text-shadow: 0 2px 0 white;
+}
+
+
+.barre a:hover {
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+  .barre:first-child a {
+    border-radius: 3px 0 0 3px;
+  }
+
+  .barre:last-child a {
+    border-radius: 0 10px 3px 0;
+  }
+
+  .barre:hover {
+  background: white;
+  opacity: 0.9;
+  }
+
+.navbar {
+  background: linear-gradient(lightgrey, white);
+  display: flex;
+  list-style: none;
+  border: 1px solid lightgrey;
+  font-size: 200%;
+  font-family: URW Chancery L;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
+                0 3px 5px rgba(0, 0, 0, .2),
+                0 5px 10px rgba(0, 0, 0, .2),
+                0 20px 20px rgba(0, 0, 0, .15);
+  border-radius: 0px 0px 10px 10px;
+}
+
+
+.nav-home {
+  margin-left: 306px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.nav-cv {
+  padding-top: 30px;
+  padding-bottom: 15px;
+  padding-left: 45px;
+  padding-right: 45px;
+}
+
+.nav-formation {
+  padding-top: 17px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.nav-competence {
+  padding-top: 17px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.nav-moi {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.carousel {
+    background: linear-gradient(white, lightgrey, grey);
+    margin-top: 10px;
+    height: 500px;
+    box-shadow: 5px 5px 8px white;
+    opacity: 0.9;
+    font-size: 180%;
+    font-family: URW Chancery L;
+}
+
+#photo{
+  height: 0;
+  width: 0;
+}
+
+.section-perso {
+  border: 1px solid lightgrey;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  width: auto;;
+  height: 440px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 8px white;
+  border-radius: 7px 7px;
+}
+
+.item a {
+  color: black;
+}
+
+.item a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.section-cv {
+  border: 1px solid lightgrey;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  width: auto;
+  height: 440px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 8px white;
+}
+
+#moi, #cv, #formation, #competence, #contact {
+  font-weight: bold;
+  font-size: 150%;
+  font-style: italic;
+  text-decoration: underline;
+  font-family: URW Chancery L;
+  margin-bottom: 80px;
+}
+
+#competence{
+  margin: 0;
+}
+
+.lien-cv{
+  margin-top: 100px;
+  font-size: 130%;
+}
+
+.lien-cv a:hover{
+  background-color: white;
+  color: #063E64;
+  text-decoration: underline;
+  padding-right: 6px;
+}
+
+.section-formation {
+  border: 1px solid lightgrey;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  width: auto;
+  height: 440px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 8px white;
+}
+
+.section-competence {
+  border: 1px solid lightgrey;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  width: auto;
+  height: 440px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 8px white;
+}
+
+.logo-js{
+  width: auto;
+  height: auto;
+}
+
+.bouton{
+  font-size: 220%;
+  margin-left: 450px;
+  margin-top: -10px;
+  border-radius: 10px 10px;
+  position: absolute;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #063E64;
+
+}
+
+.bouton:hover{
+  background: #2091F3;
+  color: white;
+  border-color: #2091F3;
+}
+
+#section-contact {
+  border: 1px solid lightgrey;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  width: auto;
+  height: 440px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 8px white;
+}
+
+.contact {
+  width: auto;
+  height: 400px;
+  list-style: none;
+}

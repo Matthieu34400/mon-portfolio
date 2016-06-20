@@ -1,0 +1,33 @@
+header {
+font-family: palatino; color: #0C779E; text-align: center; font-size: 250%; text-decoration: underline; font-weight: bold; border: 2px solid black; border-radius: 150px; background-color: #E22E2E; opacity: 0.9; box-shadow: 20px 20px 15px #F28110; margin-bottom: 25px; font-style: italic; margin-left: 300px; margin-right: 200px
+} /*Personnalisation de l'entête de la page*/
+body {
+background-color: #059E8A; opacity: 0.9; font-family: palatino;
+}/*Modification du fond de la page*/
+nav {
+text-align: left; font-size: 200%; display: inline-block; font-family: palatino; list-style-type: none
+}/*Personnalisation de la navigation entre les articles*/
+.Formation{
+border: 3px solid white; border-width: 1px; border-radius: 7px; margin-bottom: 12px; box-shadow: 7px 7px 5px #006D89; background-color: #F28110; opacity: 0.9; 
+}
+.Expérience{
+border: 3px solid white; border-width: 1px; border-radius: 7px; margin-bottom: 12px; box-shadow: 7px 7px 5px #006D89; background-color: #F28110; opacity: 0.9
+}
+.Loisir{
+border: 3px solid white; border-width: 1px; border-radius: 7px; margin-bottom: 12px; box-shadow: 7px 7px 5px #006D89; background-color: #F28110; opacity: 0.9
+}
+.Langue{
+border: 3px solid white; border-width: 1px; border-radius: 7px; margin-bottom: 12px; box-shadow: 7px 7px 5px #006D89; background-color: #F28110; opacity: 0.9
+}
+article{
+border: 1px solid white; background-color: #F28110; text-align: center; max-width: 100%; text-decoration: underline; font-style: italic; margin-left: 300px; margin-right: 300px; font-size: 125%; border-radius: 7px;
+}/*Personnalisation des différents articles*/
+ul{
+color: black
+}
+footer{
+border: 1px solid black; background-color: #F28110; color: black; text-align: center; font-size: 100%; margin-left: 250px; margin-right: 250px;
+}/*Personnalisation du pied de page*/
+
+
+

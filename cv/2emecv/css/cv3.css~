@@ -1,0 +1,129 @@
+/*---------Reset CSS----------*/
+*{
+margin:0;
+padding:0;
+}
+
+/*----------Corps de la page-----------*/
+body{
+background-color:lightblue;/*Image de fond du site*/
+color:black;/*Couleur du texte de la page*/
+overflow-x:hidden;
+}
+
+/*-----------Titre de la page------------*/
+
+
+#titre{
+	position:relative;/*Position du titre*/
+	top:1em;/*Position par rapport à la hauteur de la page*/
+	left:40px;/*Position du titre à 40 pixels de la gauche*/
+	width:100px;/*Largueur du titre*/
+	padding-right:500px;/*Marge intérieure droite du titre*/
+	font-size:180%;/*Taille du titre*/
+	display:flex;/*Mise en ligne du titre*/
+}
+
+/*-----------Barre de Navigation-----------*/
+
+#accueil a:hover,/*Effet sur la barre de navigation*/
+#accueil a:focus{
+	box-shadow:0 0 65px #FEFEFE inset, 0 0 20px #FEFEFE inset, 0 0 15px #FEFEFE;/*Effet sur le passage de la barre de navigation*/
+}
+#accueil{ 
+	position:absolute;/*Position de la barre de nav*/
+	top:1em;/*Position par rapport à la hauteur de la page*/
+	right:10px;/*Position à 10 pixels de la droite*/
+	padding:0;/*Pas de marge intérieure*/
+	margin:0;/*Pas de marge extérieure*/
+	display:flex;
+	font-size:150%
+}
+
+.menu{
+	padding:20px;
+	margin-right:20px;
+	border:1px solid black;
+}
+
+/*---------Titre "Présentation"-----------*/
+
+#presentation{
+	position:relative;/*Position du titre "présentation*/
+	top:-1em;/*Position du titre de la présentation par rapport à la hauteur de la page*/
+	left:280px;/*Position à 280 pixels de la gauche de la page*/
+	padding-left:60px;/*Marge intérieure gauche du titre de la présentation*/
+	padding-right:60px;/*Marge intérieure droite du titre de la présentation*/
+	margin-left:100px;/*Marge extérieure gauche du titre de la présentation*/
+	font-size:200%;
+}
+
+/*----------Titre "Formation"-----------*/
+
+#formation{/*Modification du titre "Formation*/
+	position:relative;/*Position du titre "formation"*/
+	top:-1em;/*Position du titre de la partie "formation" par rapport à la hauteur de la page*/
+	left:350px;/*Position à 200 pixels de la gauche de la page*/
+	padding-left:60px;/*Marge intérieure gauche du titre de la partie "formation"*/
+	padding-right:60px;/*Marge intérieure droite du titre de la partie "formation"*/
+	font-size:170%;
+}
+
+/*----------Titre "Expériences"-----------*/
+
+#experience{
+	position:relative;/*Position du titre "expériences"*/
+	top:-5em;/*Position du titre de la partie "expériences" par rapport à la hauteur de la page*/
+	left:200px;/*Position à 200 pixels de la gauche de la page*/
+	padding-left:60px;/*Marge intérieure gauche du titre de la partie "expériences"*/
+	padding-right:60px;/*Marge intérieure droite du titre de la partie "expériences"*/
+}
+
+/*-----------Titre "Qui suis-je ?-------------*/
+
+#moi{
+	position:relative;/*Position du titre "Qui suis-je ?"*/
+	top:-5em;/*Position du titre de la partie "Qui suis-je ?" par rapport à la hauteur de la page*/
+	left:200px;/*Position à 200 pixels de la gauche de la page*/
+	padding-left:60px;/*Marge intérieure gauche du titre de la partie "Qui suis-je ?"*/
+	padding-right:60px;/*Marge intérieure droite du titre de la partie "Qui suis-je ?"*/
+}
+
+/*----------Titre "Loisirs"----------*/
+
+#loisirs{
+	position:relative;/*Position du titre "loisirs"*/
+	top:-5em;/*Position du titre de la partie "loisirs" par rapport à la hauteur de la page*/
+	left:220px;/*Position à 220 pixels de la gauche de la page*/
+	padding-left:70px;/*Marge intérieure gauche du titre de la partie "loisirs"*/
+	padding-right:70px;/*Marge intérieure droite du titre de la partie "loisirs"*/
+}
+
+/*-----------Articles-----------*/
+
+article{
+	margin-top:150px;
+	margin-bottom:-70px;/*Marge extérieure du bas des articles*/
+	background-color:lightgrey;/*Couleur de fond des articles*/
+	margin-left:20px;/*Marge extérieure gauche des articles*/
+	margin-right:20px;/*Marge extérieure droite des articles*/
+	padding:0px;/*Toutes les marges intérieures des articles*/
+}
+
+/*----------Section------------*/
+
+section{
+	position:relative;/*Position de la section*/
+	top:10em;/*Position de la section par rapport à la hauteur de la page*/
+}
+
+/*----------Pied de page-----------*/
+
+footer{
+	position:relative;/*Position du pied de page*/
+	top:-52em;/*Position du pied de la page par rapport à la hauteur de la page*/
+	background-color:lightgrey;/*Couleur de fond du pied de page*/
+	margin-left:20px;/*Marge extérieure gauche du pied de page*/
+	margin-right:20px;/*Marge extérieure droite du pied de page*/
+}
+

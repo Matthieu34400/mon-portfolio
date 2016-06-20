@@ -1,0 +1,38 @@
+#contactweb
+{
+	margin-top: 80px;
+	width: 1300px;
+	height: 100px;
+	text-align:center;  /* alignement du texte */
+}
+
+
+
+
+.imagecontact{
+	font-size: 30px;
+	margin-top: 100px;
+	text-align: center;
+}
+.imagecontact p{
+     height:0;
+     transition:height 1s ease;
+}
+.imagecontact:hover p{
+     height:auto;
+}
+.imagecontact p{
+     transform: scaleY(0);
+     transition:transform 1s ease;
+}
+.imagecontact:hover p{
+     transform: scaleY(1);
+}
+.imagecontact p{
+     transform: scaleY(0);
+     transform-origin: 50% 0;
+     transition:transform 1s ease;
+}
+.imagecontact:hover p{
+     transform: scaleY(1);
+}

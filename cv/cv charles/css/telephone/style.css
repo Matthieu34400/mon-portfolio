@@ -1,0 +1,208 @@
+body{ 
+    background-color: rgb(236,236,236);
+	background-image:url(https://images.alphacoders.com/605/605746.jpg); /*image de fond de site web*/
+	background-image:no-repeat; /* configuration de l'image : pas de repetition */
+	background-attachment: 50% 50%;
+	background-size: cover;
+}
+
+
+img.imageprofil /*mon image de profil de mon site web */
+{
+   width: 300px;
+   margin-top: 20px;
+   margin-left: 250px;
+   margin-right: 250px;
+}
+
+
+
+#titre /*titre principal de mon site */
+{
+	width: 250px;
+	text-align: center;
+	margin-left: 250px;
+	margin-right: 20px;
+}
+
+/********************************************************************************************************/
+/* CONFIDURATION DU MENU */
+
+
+ul#menu { /* configuration du menu */
+    padding: 0;
+	text-align: center; /* alignement du texte */
+	margin-top: 60px
+	
+}
+
+ul#menu li {
+    display: flex;
+	width:900px;
+}
+
+ul#menu li a {
+    background-color: black; /* couleur de fond du menu : noir */
+    color: white; 
+    padding: 10px 20px center;
+    text-decoration: none; /* decoration du texte : aucun */
+    border-radius: 40px 40px 0 0;
+	
+}
+
+ul#menu li a:hover {
+    background-color: red;
+}
+
+
+/********************************************************************************************************/
+/* CONFIGURATION DES TITRES ET DES PARAGRAPHES */
+
+
+
+/* titre "qui suis-je" */
+#quisuisje
+{
+	text-align: center;
+	font-size: 100px;
+	display:flex;
+	margin-top: 20px;
+	width: 800px; /* centrer le texte au millieux du telephone*/
+	color:black;
+	text-shadow:#969696 1px 3px 0, #aba8a8 1px 13px 5px;
+}
+
+
+/* paragraphe du titre "qui suis-je" */
+
+#listequisuisje
+{
+	font-size: 50px;
+	border-width:2px;
+	display:flex;
+	margin-top: 50px;
+	width: 800px;;
+	text-align: center;
+	
+}
+
+
+
+/* titre "formation" */
+
+#formation
+{
+	text-align: center;
+	font-size: 100px;
+	display:flex;
+	margin-top: 100px;
+	width: 800px;
+	color:black;
+	text-shadow:#969696 1px 3px 0, #aba8a8 1px 13px 5px;
+}
+
+
+/* paragraphe du titre "formation" */
+#listeformation
+{
+	font-size: 50px;
+	display:flex;
+	justify-content: center;
+	margin-top: 50px;
+	width: 800px;
+	text-align: center;
+}
+
+
+/* titre "experience professionnel" */
+#experiencepro
+{
+	text-align: center;
+	font-size: 100px;
+	display:flex;
+	margin-top: 100px;
+	width: 800px;
+	color:black;
+	text-shadow:#969696 1px 3px 0, #aba8a8 1px 13px 5px;
+}
+
+
+/* paragraphe du titre "experience professionel" */
+#listeexperiencepro
+{ 
+	font-size: 50px;
+	display: flex;
+	text-align: center
+	display:flex;
+	margin-top: 50px;
+	width: 800px;
+}
+
+
+
+/* titre "loisir" */
+#loisir
+{
+	text-align: center;
+	font-size: 100px;
+	display:flex;
+	margin-top: 100px;
+	width: 800px;
+	color:black;
+	text-shadow:#969696 1px 3px 0, #aba8a8 1px 13px 5px;
+}
+
+
+/* paragraphe du titre "loisir" */
+#listeloisir
+{
+	font-size: 50px;
+	display:flex;
+	margin-top: 100px;
+	justify-content: center;
+	text-align: center;
+	width: 800px;
+}
+
+/********************************************************************************************************/
+/* CONFIGURATION DES LIENS POUR ME CONTACTER */
+
+
+#contactweb
+{
+	margin-top: 10px;
+	width: 800px;
+	text-align:center;  /* alignement du texte */
+}
+
+
+
+
+.imagecontact{
+	font-size: 50px;
+	margin-top: 100px;
+	text-align: center;
+	width: 800px;
+}
+.imagecontact p{
+     height:0;
+     transition:height 1s ease;
+}
+.imagecontact:hover p{
+     height:auto;
+}
+.imagecontact p{
+     transform: scaleY(0);
+     transition:transform 1s ease;
+}
+.imagecontact:hover p{
+     transform: scaleY(1);
+}
+.imagecontact p{
+     transform: scaleY(0);
+     transform-origin: 50% 0;
+     transition:transform 1s ease;
+}
+.imagecontact:hover p{
+     transform: scaleY(1);
+}

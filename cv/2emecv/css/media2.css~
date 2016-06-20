@@ -1,0 +1,62 @@
+@media screen and (min-width:470px) and (max-width:800px) {
+    
+    body {
+        max-width:800px;
+	min-width:470px;
+	margin:0;
+	overflow-x:hidden;
+    }
+    #titre {
+	width:0;
+	padding-right:350px;
+	}
+    header {
+	position:absolute;
+	font-size:100%;
+	}
+    #accueil {
+	position:absolute;
+	top:9em;
+	font-size:100%;
+	margin-right:290px;
+	}
+    #presentation {
+	margin-left:0;
+	top:1em;
+	left:100px;
+	}
+    #formation {
+	margin-left:0;
+	top:-6em;
+	left:130px;
+	padding-left:45px;
+	padding-right:45px;
+	}
+    #experience {
+	margin-left:0;
+	top:-6em;
+	left:120px;
+	padding-left:45px;
+	padding-right:45px;
+	}
+    #moi {
+	margin-left:0;
+	top:-8em;
+	left:140px;
+	}
+    #loisirs {
+	margin-left:0;
+	top:-7em;
+	left:140px;
+	padding-left:45px;
+	padding-right:45px;
+	}
+    article {
+	font-size:100%;
+	margin-right:18px;
+	}
+    footer {
+	top:15em;
+	margin-right:18px;
+	}
+}

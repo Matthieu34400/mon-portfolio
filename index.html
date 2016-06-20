@@ -1,0 +1,141 @@
+<!Doctype HTML>
+  <HTML lang="fr-fr">
+    <HTML>
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Mon portfolio </title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="./js/script.js" ></script>
+      </head>
+<body>
+  <div id="photo">
+    <img src="./css/images/photo_page_accueil_logo.jpg.svg"/>
+  </div>
+  <nav>
+    <ul class="navbar">
+      <div id="mon-logo">
+        <img src="./css/images/logo+port.svg"/>
+      </div>
+      <li class="nav-home barre"><a href="home">Home</a></li>
+      <li class="nav-moi barre"><a data-target="#monCarousel" data-slide-to="0" class="active">A propos de moi</a></li>
+      <li class="nav-cv barre"><a data-target="#monCarousel" data-slide-to="1" class="">Mon CV</a></li>
+      <li class="nav-formation barre"><a data-target="#monCarousel" data-slide-to="2" class="">Formation BeWeb</a></li>
+      <li class="nav-competence barre"><a data-target="#monCarousel" data-slide-to="3" class="">Compétences techniques</a></li>
+    </ul>
+  </nav>
+
+<div class="container">
+  <div id="monCarousel" class="carousel slide" data-interval="20000" data-ride="carousel">
+    <!-- Boutons en dessous du carousel -->
+    <ol class="carousel-indicators">
+      <li data-target="#monCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#monCarousel" data-slide-to="1"></li>
+      <li data-target="#monCarousel" data-slide-to="2"></li>
+      <li data-target="#monCarousel" data-slide-to="3"></li>
+      <li data-target="#monCarousel" data-slide-to="4"></li>
+    </ol>
+    <!-- Sections à l'intérieur du carousel -->
+<div class="carousel-inner">
+  <div class="item active">
+    <div class="section-perso">
+      <section>
+        <header>
+          <h3 id="moi">A propos de moi<h3>
+          </header>
+          <article>
+            <p>...
+            </p>
+          </article>
+        </section>
+      </div>
+    </div>
+<div class="item">
+  <div class="section-cv">
+    <section>
+      <header>
+        <h3 id="cv">Mon CV<h3>
+        </header>
+        <article>
+          <p>Voici le lien vers mon CV personnel. Si vous êtes intéressés,
+   n'hésitez pas, contactez moi !
+            <p>
+            <div class="lien-cv">
+          <a href="./cv/2emecv/index.html"> Lien du CV (en préparation) </a>
+        </p>
+            </div>
+          </p>
+        </article>
+      </section>
+    </div>
+</div>
+<div class="item">
+  <div class="section-formation">
+    <section>
+      <header>
+        <h3 id="formation">La formation BeWeb<h3>
+        </header>
+        <article>
+          <p>Cet onglet parle de la formation qui m'a permis d'acquérir des compétences
+  dans les différents langages et de me permettre de créer ce
+  portfolio.<br> Si vous voulez en savoir plus sur cette formation,
+  cliquez sur ce lien :<br> (Lien du futur site BeWeb)
+          </p>
+        </article>
+      </section>
+    </div>
+</div>
+<div class="item">
+  <div class="section-competence">
+    <section>
+      <header>
+        <h3 id="competence">Mes compétences techniques<h3>
+        </header>
+        <article>
+          <p>HTML/CSS (logo)</p>
+          <p>JavaScript</p>
+          <p>Compétences secondaires : -Inkscape (logo) </p>
+          <p>-Serveur Web</p>
+          <p>Méthodes de travail : -Travail en groupe </p>
+                      <p>-Séparation des tâches</p>
+                      <p>-Recherches Internet</p>
+        </article>
+      </section>
+    </div>
+</div>
+<div class="item">
+  <div id="section-contact">
+           <footer>
+             <header>
+               <h3 id="contact">Contact<h3>
+             </header>
+               <ul class="contact">
+                 <li>Adresse mail : matthieu.verquera@gmail.com</li>
+                 <li>N° de téléphone : 07.82.19.01.19</li>
+                 <li>Logo Facebook</li>
+                 <li>Logo Twitter</li>
+               </ul>
+           </footer>
+         </div>
+       </div>
+</div>
+  <!-- Flèche de gauche et de droite du carousel-->
+  <a class="carousel-control left" href="#monCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="carousel-control right" href="#monCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+  </div>
+  <li>
+    <a data-target="#monCarousel" data-slide-to="4" class="">
+  <input type="button" id="bouton" class="bouton" value="Me contacter"/>
+  </a>
+  </li>
+</div>
+</body>
+</HTML>

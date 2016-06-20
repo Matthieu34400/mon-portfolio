@@ -1,0 +1,12 @@
+body 
+{	background-color: rgb(236,236,236);
+	background-image:url(http://img0.ndsstatic.com/wallpapers/794d2c2273834483324b3182c86e7b41_large.jpeg); /*image de fond de site web*/
+	background-attachment: 50% 50% fixed;
+	background-size: cover;
+	overflow-x:hidden;
+	opacity:0.9;
+}
+
+
+
+	

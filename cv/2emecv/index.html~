@@ -1,0 +1,103 @@
+<!DOCTYPE html><!--Type du document-->
+<HTML lang="fr"><!--Référencement du document en langue française-->
+	<Head>
+		<meta charset="utf-8"><!--Balise pour décoder les caractères spéciaux-->
+		<title>Mon deuxième CV</title>
+		<link rel="stylesheet" href="./css/cv2.css"/>
+		<link rel="stylesheet" media="screen and (min-width:320px) and (max-width:480px)" href="./css/petitsmartphone.css"/>
+		<link rel="stylesheet" media="screen and (min-width:480px) and (max-width:800px)" href="./css/smartphone.css"/>
+		<link rel="stylesheet" media="screen and (min-width:768px) and (max-width:1280px)" href="./css/grossmartphone.css"/>
+		<link rel="stylesheet" media="screen and (min-width:1024) and (max-width:1300px)" href="./css/tablette.css"/><!--Balises pour lier tous les fichiers CSS-->
+		<script src = "./script/script.js/"></script>
+	</Head>
+<Body>
+<Div id="Conteneur"><!--Div générale du corps du document-->
+<Div id="entete"><!--Div de l'entête-->
+	<Header>
+		<h1  id="titre">Développeur Web<h1><!--Titre qui va apparaître sur le site-->
+	</Header>
+	<Nav id="accueil"><!--Balises pour définir la barre de navigation-->
+	<p span class="menu"><a href="#Formations">Formations</a></span></p><!--Balises pour définir les liens entre la barre de navigation et les titres des articles-->
+	<p span class="menu"><a href="#Expériences">Expériences</a></span></p>
+	<p span class="menu"><a href="#Quisuis-je?">Qui suis-je ?</a></span></p>
+	<p span class="menu"><a href="#Loisirs">Loisirs</a></span></p>
+	</Nav>
+</div>
+	<Section>
+		<Header id="presentation">
+			<h2>Présentation de mon CV</h2><!--Titre de la présentation du cv-->
+		</Header>
+			<Section>
+				<Header id="formation">
+					<h3><a name="Formations">Formations</a><h3><!--Titre de l'article "formation"-->
+				</Header>
+					<Article>
+						<ul id="liste">
+						<li>2016: Formation BeWeb en cours
+						</li>
+						<p>Je suis actuellement en formation pour devenir un développeur web.
+						</p>
+						<li>2013/2014: Baccalauréat technologique de gestion et finance
+						</li>
+						<p>J'ai passé mon bac en 2014 au bout de ma deuxième année de terminale.
+						</p>
+						</ul>	
+					</Article>
+			</Section>
+			<Section>
+				<Header id="experience">
+					<h3><a name="Expériences">Expériences</a><h3><!--Titre de l'article "expériences"-->
+				</Header>
+					<Article>
+					<p>
+
+Ac ne quis a nobis hoc ita dici forte miretur, quod alia quaedam in hoc facultas sit ingeni, neque haec dicendi ratio aut disciplina, ne nos quidem huic uni studio penitus umquam dediti fuimus. Etenim omnes artes, quae ad humanitatem pertinent, habent quoddam commune vinculum, et quasi cognatione quadam inter se continentur.
+
+Post hoc impie perpetratum quod in aliis quoque iam timebatur, tamquam licentia crudelitati indulta per suspicionum nebulas aestimati quidam noxii damnabantur. quorum pars necati, alii puniti bonorum multatione actique laribus suis extorres nullo sibi relicto praeter querelas et lacrimas, stipe conlaticia victitabant, et civili iustoque imperio ad voluntatem converso cruentam, claudebantur opulentae domus et clarae.
+
+Quam ob rem ut ii qui superiores sunt submittere se debent in amicitia, sic quodam modo inferiores extollere. Sunt enim quidam qui molestas amicitias faciunt, cum ipsi se contemni putant; quod non fere contingit nisi iis qui etiam contemnendos se arbitrantur; qui hac opinione non modo verbis sed etiam opere levandi sunt.
+					</p>
+
+					</Article>
+			</Section>
+			<Section>
+				<Header id="moi">
+					<h3><a name="Quisuis-je?">Qui suis-je ?</a><h3><!--Titre de l'article "qui suis-je ?"-->
+				</Header>
+					<Article>
+					<p>
+
+Ac ne quis a nobis hoc ita dici forte miretur, quod alia quaedam in hoc facultas sit ingeni, neque haec dicendi ratio aut disciplina, ne nos quidem huic uni studio penitus umquam dediti fuimus. Etenim omnes artes, quae ad humanitatem pertinent, habent quoddam commune vinculum, et quasi cognatione quadam inter se continentur.
+
+Post hoc impie perpetratum quod in aliis quoque iam timebatur, tamquam licentia crudelitati indulta per suspicionum nebulas aestimati quidam noxii damnabantur. quorum pars necati, alii puniti bonorum multatione actique laribus suis extorres nullo sibi relicto praeter querelas et lacrimas, stipe conlaticia victitabant, et civili iustoque imperio ad voluntatem converso cruentam, claudebantur opulentae domus et clarae.
+
+Quam ob rem ut ii qui superiores sunt submittere se debent in amicitia, sic quodam modo inferiores extollere. Sunt enim quidam qui molestas amicitias faciunt, cum ipsi se contemni putant; quod non fere contingit nisi iis qui etiam contemnendos se arbitrantur; qui hac opinione non modo verbis sed etiam opere levandi sunt.
+					</p>
+
+					</Article>
+			</Section>
+			<Section>
+				<Header id="loisirs">
+					<h3><a name="Loisirs">Loisirs</a><h3><!--Titre de l'article "Loisirs"-->
+				</Header>
+					<Article>
+					<p>
+
+Novo denique perniciosoque exemplo idem Gallus ausus est inire flagitium grave, quod Romae cum ultimo dedecore temptasse aliquando dicitur Gallienus, et adhibitis paucis clam ferro succinctis vesperi per tabernas palabatur et conpita quaeritando Graeco sermone, cuius erat inpendio gnarus, quid de Caesare quisque sentiret. et haec confidenter agebat in urbe ubi pernoctantium luminum claritudo dierum solet imitari fulgorem. postremo agnitus saepe iamque, si prodisset, conspicuum se fore contemplans, non nisi luce palam egrediens ad agenda quae putabat seria cernebatur. et haec quidem medullitus multis gementibus agebantur.
+
+Quo cognito Constantius ultra mortalem modum exarsit ac nequo casu idem Gallus de futuris incertus agitare quaedam conducentia saluti suae per itinera conaretur, remoti sunt omnes de industria milites agentes in civitatibus perviis.
+
+Exsistit autem hoc loco quaedam quaestio subdifficilis, num quando amici novi, digni amicitia, veteribus sint anteponendi, ut equis vetulis teneros anteponere solemus. Indigna homine dubitatio! Non enim debent esse amicitiarum sicut aliarum rerum satietates; veterrima quaeque, ut ea vina, quae vetustatem ferunt, esse debet suavissima; verumque illud est, quod dicitur, multos modios salis simul edendos esse, ut amicitiae munus expletum sit.
+					</p>
+
+					</Article>
+			</Section>
+	</Section>
+				<Footer><!--Pied de page où se trouve mes contacts-->
+					<p><h3>Contact :</h3></p>
+					<p>0782190119</p>
+					<p>matthieu.verquera@gmail.com</p>
+				</Footer>
+</Div>
+</Body>
+</Html>
