@@ -1,0 +1,23 @@
+.section-cv {
+  border: 1px solid lightgrey;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  width: auto;
+  height: 440px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 8px white;
+}
+
+.lien-cv{
+  margin-top: 100px;
+  font-size: 130%;
+}
+
+.lien-cv a:hover{
+  background-color: white;
+  color: #063E64;
+  text-decoration: underline;
+  padding-right: 6px;
+}

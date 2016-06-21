@@ -1,0 +1,20 @@
+
+.carousel {
+    background: linear-gradient(white, lightgrey, grey);
+    margin-top: 10px;
+    height: 500px;
+    box-shadow: 5px 5px 8px white;
+    opacity: 0.9;
+    font-size: 180%;
+    font-family: URW Chancery L;
+}
+
+.carousel-indicators{
+  font-size: 120%;
+  top: 14.7em;
+}
+
+#photo{
+  height: 0;
+  width: 0;
+}

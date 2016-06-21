@@ -1,0 +1,65 @@
+.bouton{
+  font-size: 220%;
+  margin-left: 450px;
+  margin-top: -10px;
+  border-radius: 10px 10px;
+  position: absolute;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #063E64;
+}
+
+.bouton:hover{
+  background: #2091F3;
+  color: white;
+  border-color: #2091F3;
+}
+
+#section-contact {
+  border: 1px solid lightgrey;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  width: auto;
+  height: 440px;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 8px white;
+}
+
+.contact {
+  width: auto;
+  height: 400px;
+  list-style: none;
+}
+
+.mail{
+  margin-top: -50px;
+}
+
+#mail{
+  width: 90px;
+  height: 90px;
+}
+
+.tel{
+  margin-right: 120px;
+}
+
+#tel{
+  width: 90px;
+  height: 90px;
+}
+#facebook{
+  width: 90px;
+  height: 90px;
+  margin-right: 200px;
+  margin-top: 40px;
+}
+
+#twitter{
+  width: 90px;
+  height: 90px;
+  margin-left: 200px;
+  margin-top: -131px;
+}
