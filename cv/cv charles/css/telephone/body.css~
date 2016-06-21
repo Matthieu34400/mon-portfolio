@@ -1,6 +1,0 @@
-@media screen and (min-width: 0px) and (max-width: 480px){ 		/* taille  640x960 */
-    body { 
-        background-color: black;  								/* couleur du font de page rouge*/
-    }
-}
-
