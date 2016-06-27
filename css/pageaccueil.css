@@ -1,0 +1,51 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+.mon_logo{
+  width: 80px;
+  height: 50px;
+  margin-left: 37.5%;
+  margin-top: 10%;
+}
+
+progress{
+    display: inline-block;
+    width: 300px;
+    height: 25px;
+    padding: 3px 3px 2px 3px;
+    background: grey;
+    border: 1px solid rgba(0,0,0,.5);
+    border-radius: 15px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.2);
+    margin-left: 37.5%;
+    margin-top: 20%;
+}
+
+.progress-value{
+  margin-left: 41%;
+  margin-top: 10px;
+  font-size: 120%;
+}
+
+.monbouton{
+  margin-top: 5%;
+  margin-left: 41%;
+}
+
+#bouton{
+  width: 200px;
+  height: 60px;
+  font-size: 150%;
+  cursor: pointer;
+  text-shadow: 1px 1px 2px dodgerblue;
+  border-radius: 4px 4px;
+}
+
+#bouton:hover{
+  background-color: #0487DF;
+  color:white;
+  border: 1px solid #0487DF;
+  border-radius: 4px 4px;
+}

@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
+   width="300"
+   height="300"
    id="svg3839"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -19,7 +19,8 @@
      id="defs3841">
     <filter
        inkscape:collect="always"
-       id="filter4700">
+       id="filter4700"
+       color-interpolation-filters="sRGB">
       <feGaussianBlur
          inkscape:collect="always"
          stdDeviation="1.8950627"
@@ -35,7 +36,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
      inkscape:cx="292.04685"
-     inkscape:cy="745.87913"
+     inkscape:cy="117.3077"
      inkscape:document-units="px"
      inkscape:current-layer="g4799"
      showgrid="false"
@@ -59,7 +60,8 @@
   <g
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(0,-752.36218)">
     <text
        xml:space="preserve"
        style="font-size:198.03079224px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Kinnari;-inkscape-font-specification:Kinnari Bold"
@@ -75,7 +77,7 @@
        id="g4799">
       <g
          id="g3071"
-         transform="matrix(0.11410787,0,0,0.11410787,35.761708,-10.737842)">
+         transform="matrix(0.34647302,0,0,0.34647302,18.559572,725.28706)">
         <g
            id="g3861"
            transform="translate(834.28571,-148.57143)"

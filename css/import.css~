@@ -1,0 +1,8 @@
+@import url("style.css");
+@import "carousel.css";
+@import url("navbar.css");
+@import url("sectionformation.css");
+@import url("sectioncv.css");
+@import url("sectioncontact.css");
+@import url("sectioncompetence.css");
+@import url("sectionperso.css");
