@@ -87,3 +87,15 @@ padding-bottom: 15px;
 padding-left: 35px;
 padding-right: 35px;
 }
+
+@media (max-width: 768px){
+  .navbar {
+  height: 100px;
+  }
+  .barre {
+  display: none;
+  }
+  #mon-logo{
+    position: absolute;
+  }
+}

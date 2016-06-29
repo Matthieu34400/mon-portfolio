@@ -17,5 +17,17 @@
 #photo{
   height: 0;
   width: 0;
-  background-size: cover;
+}
+
+@media (max-width: 768px){
+  .carousel {
+      margin-top: 10px;
+      height: 500px;
+      font-size: 130%;
+
+  }
+  .carousel-indicators{
+    font-size: 80%;
+    top: 31.5em;
+  }
 }
