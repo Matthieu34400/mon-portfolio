@@ -7,7 +7,7 @@
 
 body {
   background-color: lightblue;
-  font-family: Arial, serif;
+  font-family: verdana;
   overflow: hidden;
 }
 
@@ -16,7 +16,7 @@ body {
   font-size: 150%;
   font-style: italic;
   text-decoration: underline;
-  font-family: URW Chancery L;
+  font-family: verdana;
   margin-bottom: 80px;
 }
 

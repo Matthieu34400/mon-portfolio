@@ -5,8 +5,8 @@
     height: 500px;
     box-shadow: 5px 5px 8px white;
     opacity: 0.9;
-    font-size: 180%;
-    font-family: URW Chancery L;
+    font-size: 160%;
+    font-family: verdana;
 }
 
 .carousel-indicators{
@@ -17,4 +17,5 @@
 #photo{
   height: 0;
   width: 0;
+  background-size: cover;
 }

@@ -41,8 +41,8 @@ background: linear-gradient(lightgrey, white);
 display: flex;
 list-style: none;
 border: 1px solid lightgrey;
-font-size: 200%;
-font-family: URW Chancery L;
+font-size: 180%;
+font-family: verdana;
 text-align: center;
 box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
               0 3px 5px rgba(0, 0, 0, .2),
