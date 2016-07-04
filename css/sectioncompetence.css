@@ -67,3 +67,132 @@
   margin-right: 0.5%;
   margin-top: -0.7%;
 }
+
+@media (max-width: 768px){
+
+  #html{
+    margin-right: 60%;
+    margin-top: 0.9%;
+  }
+
+  #css{
+    margin-top: -150px;
+  }
+
+  #js{
+    margin-left: 55%;
+    margin-top: -200px;
+  }
+
+  .compsec{
+    margin-top: -60px;
+    margin-right: 40%;
+  }
+  .logoink{
+    margin-top: -15px;
+    margin-right: 60%;
+  }
+  .serv{
+    margin-top: -130px;
+    margin-left: 55%;
+  }
+
+  .methode{
+    margin-top: 85px;
+    margin-right: 50%;
+  }
+
+  .travail{
+    margin-right: -43%;
+    margin-top: -35px;
+  }
+
+  .taches{
+    margin-left: 47%;
+    margin-top: -0.7%;
+  }
+
+  .recherche{
+    margin-right: -45%;
+    margin-top: -0.7%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+
+#css{
+  margin-top: -152px;
+}
+
+#js{
+  margin-left: 37%;
+  margin-top: -212px;
+}
+
+.logoink{
+  margin-top: -50px;
+  margin-left: 60%;
+}
+.serv{
+  margin-top: -97px;
+  margin-left: 22%;
+}
+
+.methode{
+  margin-right: 43.5%;
+}
+
+.travail{
+  margin-right: -10%;
+  margin-top: -37px;
+}
+
+.taches{
+  margin-right: -13%;
+}
+
+.recherche{
+  margin-right: -12%;
+  margin-top: -0.7%;
+}
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+
+  #css{
+    margin-top: -152px;
+  }
+
+  #js{
+    margin-left: 37%;
+    margin-top: -220px;
+  }
+
+  .logoink{
+    margin-top: -50px;
+    margin-left: 50%;
+  }
+
+  .serv{
+    margin-top: -97px;
+    margin-left: 12%;
+  }
+
+  .methode{
+    margin-right: 43.5%;
+  }
+
+  .travail{
+    margin-right: -5%;
+    margin-top: -37px;
+  }
+
+  .taches{
+    margin-right: -8%;
+  }
+
+  .recherche{
+    margin-right: -7%;
+    margin-top: -0.7%;
+  }
+}

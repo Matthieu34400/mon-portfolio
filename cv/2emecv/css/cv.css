@@ -1,133 +1,142 @@
-/*---------Corps de la page---------*/
-
-body{
-	font-family:arial;/*Personnalisation de la police de la page*/
-	background-image:url(http://www.rickychew.com/wp-content/uploads/2013/01/ewDfB.png);/*Image de fond de la page*/
-	background-position:center;/*Position de l'image de fond*/
-	background-attachment:fixed;/*Image de fond fixe*/
-	color:white;/*Couleur du texte de la page*/
+/*---------Reset CSS----------*/
+*{
+	padding : 0;
+	margin : 0;
 }
 
-/*---------Entête---------*/
-
-header{
-	margin:auto;/*Marge automatique*/
-	font-size: 150%;/*Taille de l'entête*/
-	font-style: bold;/*Style de la police en gras*/
-	border: 2px solid grey;/*Bordure de l'entête*/
-	text-align: center;/*Alignement du texte de l'entête*/
-	background-image:url(http://www.youyouk.fr/wp-content/uploads/2010/01/Aurore-bleue-2.png);/*Image de fond de l'entête*/
-	color:white;/*Couleur de la police de l'entête*/
-	box-shadow:6px 6px 5px white;/*Ombre de la bordure de l'entête*/
-	opacity:0.9;/*Réglage de l'opacité*/
+/*----------Corps de la page-----------*/
+body {
+	background: radial-gradient(lightgrey, white, white, lightgrey);
 }
 
-/*--------Titre de la page----------*/
-
-#titre{
-	width:480px;/*Largeur du titre de la page*/
-	margin-top:-15px;/*Marge extérieure supérieure du titre*/
-	padding-left:380px;/*Marge intérieure gauche du titre*/
-	padding-right:380px;/*Marge intérieure droite du titre*/
-	font-size:170%;/*Taille du titre*/
-	text-decoration:underline;/*Soulignement du titre*/
-	font-variant: small-caps;/*Style de police "petites capitales"*/
-	background-image:url(http://www.youyouk.fr/wp-content/uploads/2010/01/Aurore-bleue-2.png);/*Image de fond du titre*/
-	background-position:center;/*Position de l'image de fond*/
-	color:white;/*Couleur de la police*/
-	font-style:italic;/*Style de la police en italique*/
-	opacity:0.9;/*Réglage de l'opacité*/
+.titre{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 250%;
+	margin-top: 2%;
+	color: #D08300;
+	border-top: 2px solid #B60000;
+	border-bottom: 2px solid #B60000;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
 
-/*----------Barre de Navigation------------*/
-
-nav{
-	display: flex;/*Position de la barre de nav*/
-	flex-direction: row;/*Mise en ligne de la barre de nav*/
-	justify-content: space-around;/*Espace entre chaque partie de la barre de nav*/
-	font-style:italic;/*Style de la police en italique*/
-	font-size:125%;/*Taille de la police*/
+.presentation{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 150%;
+	margin-top: 5%;
+	color: #D08300;
+	border-top: 2px solid #B60000;
+	border-bottom: 2px solid #B60000;
+	padding-top: 8px;
+	padding-bottom: 8px;
 }
-.menu{
-	border:2px solid grey;/*Bordure de chaque partie de la barre de nav*/
-	margin-top:40px;/*Marge extérieure supérieure de la barre de nav*/
-	margin-bottom:40px;/*Marge extérieure inférieure de la barre de nav*/
-	padding-top:15px;/*Marge intérieure supérieure de la barre de nav*/
-	padding-bottom:15px;/*Marge intérieure inférieure de la barre de nav*/
-	padding-left:25px;/*Marge intérieure gauche de la barre de nav*/
-	padding-right:25px;/*Marge intérieure droite de la barre de nav*/
-	background-image:url(http://www.youyouk.fr/wp-content/uploads/2010/01/Aurore-bleue-2.png);/*Image de fond de la barre de nav*/
-	box-shadow:6px 6px 5px white;/*Ombre de la bordure de la barre de nav*/
-	opacity:0.9;/*Réglage de l'opacité*/
-}
-a{
-	color:white;/*Effet blanc sur le contour des parties sur la barre de navigation au passage de la souris*/
-}
-.menu a:hover{
-	color:red;/*Effet rouge sur les parties au passage de la souris sur la barre de navigation*/
-}
-
-/*---------Titre "Présentation"-----------*/
-
-#presentation{
-	border:2px solid black;/*Bordure du titre "présentation"*/
-	margin-left:150px;/*Marge extérieure gauche du titre "présentation"*/
-	margin-right:150px;/*Marge extérieure droite du titre "présentation"*/
-	font-style:italic;/*Style de police en italique*/
-}
-
-/*--------Titre "Formation"---------*/
 
 #formation{
-	border:2px solid black;/*Bordure du titre "formation"*/
-	margin-top:50px;/*Marge extérieure supérieure du titre "formation"*/
-	margin-bottom:50px;/*Marge extérieure inférieure du titre "formation"*/
-	margin-left:300px;/*Marge extérieure gauche du titre "formation"*/
-	margin-right:300px;/*Marge extérieure droite du titre "formation"*/
+	width: 450px;
+	height: 150px;
+	margin-top: 7%;
+	margin-left: 4%;
+	border-right: 2px solid #B60000;
+	border-bottom: 2px solid #B60000;
+	padding-right: 2%;
 }
 
-/*---------Titre "Expériences"----------*/
+.header{
+	border-top: 2px solid #B60000;
+	border-bottom: 2px solid #B60000;
+	font-size: 160%;
+	color: #D08300;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+li{
+	list-style-type: none;
+	font-size: 120%;
+	padding-top: 10px;
+}
 
 #experience{
-	border:2px solid black;/*Bordure du titre "expériences"*/
-	margin-top:50px;/*Marge extérieure supérieure du titre "expériences"*/
-	margin-bottom:50px;/*Marge extérieure inférieure du titre "expériences"*/
-	margin-left:300px;/*Marge extérieure gauche du titre "expériences"*/
-	margin-right:300px;/*Marge extérieure droite du titre "expériences"*/
+	margin-left: 60%;
+	margin-top: -11.5%;
+	width: 450px;
+	height: 180px;
+	border-left: 2px solid #B60000;
+	border-bottom: 2px solid #B60000;
+	padding-left: 2%;
 }
 
-/*---------Titre "Qui suis-je ?"---------*/
-
-#moi{
-	border:2px solid black;/*Bordure du titre "Qui suis-je ?"*/
-	margin-top:50px;/*Marge extérieure supérieure du titre "Qui suis-je ?"*/
-	margin-bottom:50px;/*Marge extérieure inférieure du titre "Qui suis-je ?"*/
-	margin-left:300px;/*Marge extérieure gauche du titre "Qui suis-je ?"*/
-	margin-right:300px;/*Marge extérieure droite du titre "Qui suis-je ?"*/
+#langues{
+	width: 450px;
+	height: 180px;
+	margin-top: 4%;
+	margin-left: 4%;
+	border-right: 2px solid #B60000;
+	border-bottom: 2px solid #B60000;
+	padding-right: 2%;
 }
-
-/*---------Titre "Loisirs"----------*/
 
 #loisirs{
-	border:2px solid black;/*Bordure du titre "loisirs"*/
-	margin-top:50px;/*Marge extérieure supérieure du titre "loisirs"*/
-	margin-bottom:50px;/*Marge extérieure inférieure du titre "loisirs"*/
-	margin-left:300px;/*Marge extérieure gauche du titre "loisirs"*/
-	margin-right:300px;/*Marge extérieure droite du titre "loisirs"*/
+	width: 450px;
+	height: 200px;
+	margin-top: -12%;
+	margin-bottom: 1%;
+	margin-left: 60%;
+	border-left: 2px solid #B60000;
+	border-bottom: 2px solid #B60000;
+	padding-left: 2%;
 }
 
-/*----------Articles----------*/
-
-article{
-	border:1px solid black;/*Bordure autour des articles*/
+.texte{
+	font-size: 120%;
+	padding-top: 10px;
 }
 
-/*----------Pied de page------------*/
+@media (max-width: 768px){
 
-footer{
-	border:1px solid black;/*Bordure du pied de page*/
-	text-align:center;/*Texte du pied de page aligné au centre*/
-	vertical-align:center;/*Pied de page aligné au centre*/
-	margin-top:30px;/*Marge extérieure supérieure du pied de page*/
+	#formation{
+		width: 350px;
+	}
+
+	#experience{
+		position: relative;
+		right: 220px;
+		margin-top: 5.5%;
+		width: 350px;
+		padding-bottom: 15px;
+	}
+
+	#langues{
+		width: 350px;
+	}
+
+	#loisirs{
+		position: relative;
+		height: 295px;
+		right: 220px;
+		width: 350px;
+		margin-top: 4%;
+	}
 }
 
+@media (min-width: 768px) and (max-width: 992px){
+
+	#experience{
+		position: relative;
+		right: 220px;
+		margin-top: 5.5%;
+		width: 450px;
+		padding-bottom: 15px;
+	}
+
+	#loisirs{
+		position: relative;
+		height: 290px;
+		right: 220px;
+		width: 450px;
+		margin-top: 4%;
+	}
+
+}

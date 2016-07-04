@@ -7,8 +7,18 @@ $(document).ready(function() {
   		event.preventDefault();
   		$("body").fadeOut(3000, redirectPage);
 	});
-  
+
   function redirectPage() {
 		window.location = linkLocation;
 	}
 });
+
+function dropdown(etat) {
+   var test = document.getElementById("menuderoulant").className;
+	if(etat==1) {
+	document.getElementById("menuderoulant").className=test.replace("hide","show");
+	}
+	else if(etat==0) {
+	document.getElementById("menuderoulant").className=test.replace("show","hide");
+	}
+}

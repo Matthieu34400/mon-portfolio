@@ -11,6 +11,11 @@
   border-radius: 7px 7px;
 }
 
+.texte-perso{
+  position: relative;
+  top:-2em;
+}
+
 .item a {
   color: black;
 }
@@ -21,8 +26,8 @@
 }
 
 .photoperso{
-  margin-left: 60%;
-  margin-top: -13%;
+  margin-left: 2%;
+  margin-top: -6.5%;
   margin-bottom: 4%;
 }
 
@@ -38,4 +43,18 @@
     margin-top: -150px;
   }
 
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+  .photoperso{
+    margin-left: 70%;
+    margin-top: -20%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+  .photoperso{
+    margin-left: 70%;
+    margin-top: -16%;
+  }
 }

@@ -13,9 +13,9 @@
 }
 
 .bouton:hover{
-  background: #2091F3;
+  background: #BD5200;
   color: white;
-  border-color: #2091F3;
+  border-color: #BD5200;
 }
 
 #section-contact {
@@ -36,40 +36,107 @@
   list-style: none;
 }
 
-.mail{
-  margin-top: -5%;
-}
-
 #mail{
-  width: 90px;
-  height: 90px;
+  position: absolute;
+  left: 250px;
+  width: 75px;
+  height: 75px;
 }
 
 .tel{
-  margin-right: 12%;
+  position: relative;
+  top: 5em;
+  right: 150px;
+  margin-top:5%;
 }
 
 #tel{
-  width: 90px;
-  height: 90px;
+  position: absolute;
+  right: 90px;
+  margin-top: -10%;
+  width: 75px;
+  height: 75px;
 }
+
+.dropdown {
+	width: 50px;
+	height: 50px;
+	padding-top: 10px;
+	margin: auto;
+	transition-duration: 0.4s;
+	transition-property: height;
+}
+
+.dropdown:hover {
+	height: 100px;
+	transition: 0.9s height;
+}
+
+li {
+	list-style : none;
+}
+
 #facebook{
-  width: 90px;
-  height: 90px;
-  margin-right: 20%;
-  margin-top: 4%;
+  position: absolute;
+  right: 420px;
+  width: 75px;
+  height: 75px;
 }
 
 #twitter{
-  width: 90px;
-  height: 90px;
-  margin-left: 20%;
-  margin-top: -12%;
+  position: absolute;
+  right: 230px;
+  width: 80px;
+  height: 80px;
 }
 
 @media (max-width: 768px){
 
   .bouton{
     display: none;
+  }
+  .mail{
+    margin-top: -50px;
+  }
+  #facebook{
+    width: 90px;
+    height: 90px;
+    margin-right: 25%;
+    margin-top: 15px;
+  }
+
+  #twitter{
+    width: 90px;
+    height: 90px;
+    margin-left: 130px;
+    margin-top: -113px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+  .bouton{
+    margin-top: -15px;
+    margin-left: 250px;
+  }
+  #twitter{
+    width: 90px;
+    height: 90px;
+    margin-left: 130px;
+    margin-top: -120px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+
+  .bouton{
+    margin-top: -15px;
+    margin-left: 365px;
+  }
+
+  #twitter{
+    width: 90px;
+    height: 90px;
+    margin-left: 130px;
+    margin-top: -120px;
   }
 }

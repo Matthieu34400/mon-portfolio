@@ -41,7 +41,7 @@ background: linear-gradient(lightgrey, white);
 display: flex;
 list-style: none;
 border: 1px solid lightgrey;
-font-size: 180%;
+font-size: 150%;
 font-family: verdana;
 text-align: center;
 box-shadow: 0 1px 3px rgba(0, 0, 0, .3),
@@ -97,5 +97,79 @@ padding-right: 35px;
   }
   #mon-logo{
     position: absolute;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+  .navbar {
+  height: 100px;
+  }
+  .barre {
+  position: absolute;
+  }
+  #mon-logo{
+    margin-left: 250px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+
+  .navbar {
+  height: 100px;
+  }
+
+  .barre {
+  position:relative;
+  left:-80px;
+  width: 100px;
+  font-size: 80%;
+  }
+
+  #mon-logo{
+    margin-left: 0;
+  }
+
+  .nav-home {
+  margin: 0px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  }
+
+  .nav-cv {
+  margin: 0px;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  }
+
+  .nav-formation {
+  text-align: left;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  }
+
+  .nav-competence {
+  text-align: left;
+  padding-top: 17px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 25px;
+  }
+
+  .barre:hover{
+    background: none;
+  }
+
+  .nav-moi {
+
+  font-size: 71%;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   }
 }
