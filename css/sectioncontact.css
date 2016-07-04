@@ -1,6 +1,6 @@
 .bouton{
   font-size: 180%;
-  margin-left: 35.5%;
+  margin-left: 36.4%;
   margin-top: -0.9%;
   border-radius: 10px 10px;
   position: absolute;
@@ -99,17 +99,28 @@ li {
     margin-top: -50px;
   }
   #facebook{
-    width: 90px;
-    height: 90px;
-    margin-right: 25%;
-    margin-top: 15px;
+    position: absolute;
+    left:240px;
+    top: 13em;
+    width: 80px;
+    height: 80px;
   }
 
   #twitter{
+    position: absolute;
+    top: 13em;
     width: 90px;
     height: 90px;
-    margin-left: 130px;
-    margin-top: -113px;
+  }
+
+  #tel{
+    position: absolute;
+    left: -100px;
+  }
+
+  .tel{
+    position: relative;
+    right: 120px;
   }
 }
 
