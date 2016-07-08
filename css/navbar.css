@@ -61,7 +61,7 @@ padding-right: 30px;
 }
 
 .nav-cv {
-padding-top: 30px;
+padding-top: 17px;
 padding-bottom: 15px;
 padding-left: 45px;
 padding-right: 45px;
@@ -82,7 +82,14 @@ padding-right: 35px;
 }
 
 .nav-moi {
-padding-top: 20px;
+padding-top: 10px;
+padding-bottom: 15px;
+padding-left: 35px;
+padding-right: 35px;
+}
+
+.nav-projet {
+padding-top: 17px;
 padding-bottom: 15px;
 padding-left: 35px;
 padding-right: 35px;

@@ -11,7 +11,7 @@ body {
   overflow: hidden;
 }
 
-#moi, #cv, #formation, #competence, #contact {
+#moi, #cv, #formation, #competence, #contact, #projet {
   font-weight: bold;
   font-size: 150%;
   font-style: italic;

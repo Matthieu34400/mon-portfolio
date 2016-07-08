@@ -98,29 +98,41 @@ li {
   .mail{
     margin-top: -50px;
   }
+
+  #mail{
+    position: absolute;
+    left: 120px;
+    width: 75px;
+    height: 75px;
+  }
+
   #facebook{
     position: absolute;
-    left:240px;
+    left:120px;
     top: 13em;
     width: 80px;
     height: 80px;
   }
 
-  #twitter{
-    position: absolute;
-    top: 13em;
-    width: 90px;
-    height: 90px;
-  }
-
   #tel{
     position: absolute;
-    left: -100px;
+    left: 60px;
+    margin-top: -15px;
   }
 
   .tel{
     position: relative;
-    right: 120px;
+    top: 3.5em;
+    left: 50px;
+
+  }
+
+  #twitter{
+    position: absolute;
+    bottom: 6.4em;
+    left: 230px;
+    width: 90px;
+    height: 90px;
   }
 }
 
@@ -129,11 +141,42 @@ li {
     margin-top: -15px;
     margin-left: 250px;
   }
+
+  #mail{
+    position: absolute;
+    left: 250px;
+    margin-top: -35px;
+    width: 75px;
+    height: 75px;
+  }
+
+  #facebook{
+    position: absolute;
+    left:240px;
+    top: 13em;
+    width: 80px;
+    height: 80px;
+  }
+
+  #tel{
+    position: absolute;
+    left: 100px;
+    margin-top: -40px;
+  }
+
+  .tel{
+    position: relative;
+    top: 2.5em;
+    left: 70px;
+
+  }
+
   #twitter{
+    position: absolute;
+    bottom: 4.6em;
+    right: 200px;
     width: 90px;
     height: 90px;
-    margin-left: 130px;
-    margin-top: -120px;
   }
 }
 
@@ -144,10 +187,40 @@ li {
     margin-left: 365px;
   }
 
+  #mail{
+    position: absolute;
+    left: 250px;
+    margin-top: -35px;
+    width: 75px;
+    height: 75px;
+  }
+
+  #facebook{
+    position: absolute;
+    left:240px;
+    top: 13em;
+    width: 80px;
+    height: 80px;
+  }
+
+  #tel{
+    position: absolute;
+    left: 100px;
+    margin-top: -40px;
+  }
+
+  .tel{
+    position: relative;
+    top: 2.5em;
+    left: 70px;
+
+  }
+
   #twitter{
+    position: absolute;
+    bottom: 3em;
+    right: 310px;
     width: 90px;
     height: 90px;
-    margin-left: 130px;
-    margin-top: -120px;
   }
 }
